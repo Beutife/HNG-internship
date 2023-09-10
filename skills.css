@@ -1,0 +1,34 @@
+body{
+    padding: 0;
+    margin: 0;
+     color: #f6f9fc;
+ }
+ h1{
+    color: var(--mainBlack);
+    align-items: center;
+    padding: 5rem 3rem 5rem 3rem;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 2.5rem;
+    background-color: #07213a;
+    margin-bottom: 0;
+ }
+ #list{
+    padding: 10rem 20rem 5rem 30rem;
+    background: #92acc7;
+
+ }
+ #icon{
+    background: #07213a;
+    margin-bottom: 0;
+    padding-left: 32rem;
+ }
+ #icon #link {
+    text-decoration: none;
+    color: #f6f9fc;
+    margin-bottom: 0;
+    padding: 10px;
+}
+#icon #link:hover{
+    color: #92acc7;
+}
