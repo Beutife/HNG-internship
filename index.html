@@ -15,14 +15,16 @@
         <nav id="nav-bar">
             <img id ="icon" src="icons8-b-67.png" alt="">
             <div id="intro">
-                <p>Slack UserName: Beulah Ude</p>
-                <p>Track: FrontEnd</p>
+                <p data-testid="slackUserName" id="slackUserName">Slack UserName: Beulah Ude</p>
+                <p data-testid="myTrack" id="myTrack">Track: FrontEnd</p>
             </div>
             
             <ul>
                 <li><a href="portfolio.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="https://github.com/Beutife/HNG-internship">Github URL</a></li>
+                <li><a href="https://github.com/Beutife/HNG-internship"  target="_blank"
+                    data-testid="githubURL"
+                    id="githubURL">Github URL</a></li>
                 <li><a href="skills.html">Skills</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>  
@@ -40,10 +42,12 @@
                 </h2>
             </div>
             <div id="info">
-                <img class ="image" src="be.jpg" alt="Beulah Ude">
+                <img data-testid="slackDisplayImage" class ="image" src="be.jpg" alt="Beulah Ude">
                 <p>Slack Display Picture</p>
-                <p>Current Day of the week: <span id="day"></span></p>
-                <p>Current UTC Time:<span id="time"></span> </p>
+                <p data-testid="currentDayOfTheWeek"
+                id="currentDayOfTheWeek" >Current Day of the week: <span id="day"></span></p>
+                <p data-testid="currentUTCTime"
+                id="currentUTCTime">Current UTC Time:<span id="time"></span> </p>
             </div>
         </div>
     </main>
