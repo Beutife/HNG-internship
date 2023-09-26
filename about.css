@@ -73,3 +73,8 @@ p a:hover{
 #icon #link:hover{
     color: #92acc7;
 }
+@media (max-width: 450px)   {
+    #container{
+        flex-direction: column-reverse;
+    }
+}

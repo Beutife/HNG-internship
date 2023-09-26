@@ -74,3 +74,25 @@ body{
 #info{
     padding: 0px 10px 0px 5px;
 }
+
+@media (max-width: 450px) {
+    #hero {
+        flex-direction: column; /* Adjust for larger screens */
+        justify-content: space-between;
+    }
+
+    #nav-pic {
+        flex-direction: column-reverse; /* Adjust for larger screens */
+        justify-content: space-between;
+    }
+
+    #font {
+        font-size: 50px; /* Restore larger font size for larger screens */
+    }
+    .image{
+        width:200px;
+    }
+    #info {
+        padding: 0px 10px 0px 5px;
+    }
+}
