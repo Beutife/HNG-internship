@@ -32,3 +32,12 @@ body{
 #icon #link:hover{
     color: #92acc7;
 }
+@media (max-width: 450px) {
+   #list{
+      padding-left: 0;
+   }
+   #icon{
+
+      padding-left: 5rem;
+  }
+}

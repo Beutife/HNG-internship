@@ -75,6 +75,19 @@ p a:hover{
 }
 @media (max-width: 450px)   {
     #container{
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
+    #icon{
+
+        padding-left: 5rem;
+    }
+    #image{
+        width: 200px;
+        height: 300px;
+        
+}
+#container p{
+    width: 300px;
+    padding-left: 0;
+}
 }
